@@ -29,6 +29,15 @@ npm i
 npm start
 ```
 
+## Development
+
+I have hosted this project over Cloudflare.
+
+```
+https://east-vantage-project.pages.dev/
+
+```
+
 # vishnunarasim20@gmail.com
 # Vishnu N
 
