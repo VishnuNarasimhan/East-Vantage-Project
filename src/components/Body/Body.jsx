@@ -3,18 +3,22 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 export default function Body() {
+  //Using useState we are tracking the state of the functional component...
   const [data, setData] = useState();
-  //Using useEffect we are fetch the Data with help of axios GET request...
+
+  //Using fetchData function we are fetching the Data with help of axios GET request...
   const fetchData = async () => {
     const { data } = await axios.get('https://randomuser.me/api');
     console.log(data);
     setData(data);
   };
+
+  //Using useEffect we are calling the fetchData function...
   useEffect(() => {
     fetchData();
   }, []);
 
-  // This code is used to store the data in local storage...
+  // Below code is used to store the data in local storage...
   let my_data = JSON.stringify(data);
   localStorage.setItem('userData', my_data);
 

@@ -2,6 +2,7 @@ body {
   background-color: aliceblue;
 }
 
+/* CSS for Body  */
 .Body {
   border: 1px solid black;
   text-align: center;
@@ -25,45 +26,14 @@ body {
   color: black;
 }
 
-.Body-delay-text {
-  font-size: 20px;
-  font-family: sans-serif;
-}
-
-.body-content-profile-img {
-  width: 20%;
-  height: 20%;
-  border-radius: 50%;
-  border: 4px solid grey;
-  -webkit-box-shadow: 10px 0px 14px -14px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 0px 14px -14px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 0px 14px -14px rgba(0, 0, 0, 0.75);
-}
-
-.body-content-name {
-  font-size: 30px;
-  font-family: sans-serif;
-  margin-bottom: 0.5%;
-}
-
-.body-content-email {
-  font-size: 15px;
-  font-family: sans-serif;
-  margin-bottom: 1%;
-  text-decoration: underline;
-}
-
-.Body-h4{
-  position: absolute;
-  bottom: 27%;
-  right: 46%;
-  cursor: pointer;
+hr {
+  width: 20vw;
+  margin-bottom: 4%;
 }
 
 .Body-btn {
   background: none;
   border: 3px solid rgb(58, 56, 56);
-  /* background-color: aliceblue; */
   border-radius: 10px;
   color: rgb(58, 56, 56);
   font-size: 1.6em;
@@ -97,6 +67,7 @@ body {
   box-shadow: 7px 7px 33px -18px rgba(0, 0, 0, 0.75);
 }
 
+/* CSS for body-content  */
 .body-content {
   display: flex;
   flex-direction: column;
@@ -104,7 +75,25 @@ body {
   align-items: center;
 }
 
-hr {
-  width: 20vw;
-  margin-bottom: 4%;
+.body-content-profile-img {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  border: 4px solid grey;
+  -webkit-box-shadow: 10px 0px 14px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 0px 14px -14px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 0px 14px -14px rgba(0, 0, 0, 0.75);
+}
+
+.body-content-name {
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-bottom: 0.5%;
+}
+
+.body-content-email {
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-bottom: 1%;
+  text-decoration: underline;
 }
