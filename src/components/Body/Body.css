@@ -1,0 +1,110 @@
+body {
+  background-color: aliceblue;
+}
+
+.Body {
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 20%;
+  padding: 15px;
+  height: 80vh;
+  width: 60vw;
+  background-color: #87f1fb;
+  border-radius: 15px;
+  border: none;
+  -webkit-box-shadow: 7px 7px 33px -18px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 7px 33px -18px rgba(0, 0, 0, 0.75);
+  box-shadow: 7px 7px 33px -18px rgba(0, 0, 0, 0.75);
+}
+
+.Body-heading {
+  margin-top: 3%;
+  margin-bottom: 1%;
+  font-family: sans-serif;
+  color: black;
+}
+
+.Body-delay-text {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.body-content-profile-img {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  border: 4px solid grey;
+  -webkit-box-shadow: 10px 0px 14px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 0px 14px -14px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 0px 14px -14px rgba(0, 0, 0, 0.75);
+}
+
+.body-content-name {
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-bottom: 0.5%;
+}
+
+.body-content-email {
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-bottom: 1%;
+  text-decoration: underline;
+}
+
+.Body-h4{
+  position: absolute;
+  bottom: 27%;
+  right: 46%;
+  cursor: pointer;
+}
+
+.Body-btn {
+  background: none;
+  border: 3px solid rgb(58, 56, 56);
+  /* background-color: aliceblue; */
+  border-radius: 10px;
+  color: rgb(58, 56, 56);
+  font-size: 1.6em;
+  font-weight: bold;
+  position: absolute;
+  bottom: 17%;
+  right: 39%;
+  padding: 0.7em 2.3em;
+  text-transform: uppercase;
+  -webkit-box-shadow: 7px 7px 33px -18px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 7px 33px -18px rgba(0, 0, 0, 0.75);
+  box-shadow: 7px 7px 33px -18px rgba(0, 0, 0, 0.75);
+}
+
+.Body-btn:hover {
+  background: none;
+  border: 3px solid rgb(58, 56, 56);
+  background-color: rgb(58, 56, 56);
+  border-radius: 10px;
+  color: rgb(247, 245, 245);
+  font-size: 1.6em;
+  font-weight: bold;
+  position: absolute;
+  bottom: 17%;
+  right: 39%;
+  padding: 0.7em 2.3em;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-box-shadow: 7px 7px 33px -18px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 7px 33px -18px rgba(0, 0, 0, 0.75);
+  box-shadow: 7px 7px 33px -18px rgba(0, 0, 0, 0.75);
+}
+
+.body-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  width: 20vw;
+  margin-bottom: 4%;
+}
